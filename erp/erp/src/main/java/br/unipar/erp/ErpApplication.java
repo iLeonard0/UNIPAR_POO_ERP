@@ -23,7 +23,7 @@ public class ErpApplication implements CommandLineRunner {
 		Usuario usuario = new Usuario();
 		usuario.setNome("Spring JPA");
 		usuario.setSenha("123456");
-		usuario.setUsuario("spring-jpa");
+		usuario.setUsuario("spring.jpa");
 		usuario.setDataNascimento(LocalDate.of(1993,6,20));
 
 		Usuario usuarioSalvo = usuarioRepository.save(usuario);
